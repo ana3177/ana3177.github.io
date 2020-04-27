@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <title> Ana Carvallo - Home </title>
+        <meta charset = "utf-8">
+        <link rel="stylesheet" href="homeStyle.css">
+        <link rel="stylesheet" href="slicknav.css">
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+        
+    </head>
+
+    <body>
+        <div class="wrapper"> 
+            <div class= "header">
+                <nav id="tinyScreen"></nav>
+                
+                <nav id="NavMenu">
+                    <ul>
+                    <li class="box1"><a href="HOME.HTML"> Home </a></li>
+                    <li class="box2"><a href="#">About</a></li>
+                    <li class="box3"><a href="GALLERY.HTML">Gallery</a>
+                      <ul>
+                            <li class="box3"><a href="#">Current Projects</a></li>
+                            <li class="box3"><a href="#">Past Projects</a>
+                                <ul>
+                                    <li class="box3"><a href="#">Wood</a></li>
+                                    <li class="box3"><a href="#">Glass</a></li>
+                                    <li class="box3"><a href="#">Other</a></li>
+                                </ul>
+                            </li>
+                      </ul>
+                    </li>
+                    <li><a href="#" class="box4">Contact</a></li>
+                </ul>
+            </nav>
+            </div>
+            <article class = "main">
+            
+                <h3>thanks for clicking in!</h3>
+                <section class="content1">
+                    <h4>Welcome 2 me!</h4>
+                    <p> I love to make things! Been makin for just about all my life. Someday, I'd like to be a professional maker. Not sure what that looks like but I'm thinking something like Mythbusters, just without a boss or a TV show. </p>
+                    <img src="MeBeAM.jpg" alt="a pic of me">
+                    <p> I've worked at BeAM (UNC's makerspaces) for a little over two and a half years, and before that I helped build the first highschool makerspace in the Southern US at my highschool back in Atlanta. Makerspaces are where I realized that I could make a living doing the thing I love most!</p>
+                    <img src="sCOOBiEz.jpg" alt="a pic of my pooch, rolling in money">
+                    <p>This is my dog Milbea. She's a bit of a playa'. I rescued her almost two years ago and she's pretty much my best friend. She loves this whole quarantine thing that's going on because it means she gets butt rubs during every waking moment of our lives</p>
+              </section>
+                <section class="content2">
+                <h4>A bit about this website:</h4>
+                <p>link to the site's <a href="designSpec.pdf"> design specs</a></p>
+                <p>I made this website as a final project for my COMP 126 class. I created both the color pallete and font used on here - the font is
+                    actually my handwriting. Or, at least part of it. I dont want anyone to think that 100% of my writings are in all caps; they are not. 
+                    Honestly, I just fw the vibe. My goal is to use this website like a digital portfolio
+                    without turning it into anything too serious. I'd like this to contain a record of my projects and maybe even some of the 
+                    steps I had to take along the way. 
+                </p>
+                </section>
+                <section class="content3">
+                    <h4>some more about me:</h4>
+                    <p>My name is Ana (lol tho you probably got that by now). I'm currently a third year here at UNC
+                     I am double majoring in applied mathematics and french, and I hope to graduate with a minor in 
+                     applied sciences and engineering, though I'm not sure if i will have time or not considering it 
+                     doesn't officially exist. My plan after I graduate is to spend a year or two as an apprentice at a 
+                     glass blowing studio and then do graduate school somewhere fun, most likely in industrial engineering 
+                     or product design. 
+                    </p>
+                </section>
+            </article>
+            <footer>
+                <a href="index.html"><img src="logo.svg" alt="my signature first name" style=max-width:5%></a>
+            </footer>
+        
+      
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="jquery.slicknav.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+      $("#NavMenu").slicknav({
+          prependTo: "#tinyScreen"
+      });
+  });
+</script>
+
+    </body>
+</html>

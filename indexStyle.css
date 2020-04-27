@@ -1,0 +1,88 @@
+@font-face{
+    font-family: "SiteFontCaps";
+    src: url(C:\Users\ana3177\Documents\SPRING_2020\COMP_126\CarvalloAAFin\Sitefontcaps-Regular.ttf) format("truetype")
+}
+
+html{
+    text-align: center;
+    font-family: "SiteFontCaps";
+    width:100%;
+    height:100;
+    margin:0;
+    padding:0;
+    
+}
+
+.wrapper{
+    width:100%;
+    height:100%;
+    margin:0 auto;
+    background-color:#E88200;
+}
+
+.header{
+    background-color: #34262b;
+    color: #d6c3c9;
+    padding-top: 14vh;
+    height:41vh;
+    padding-bottom: 2vh;
+    box-shadow: 5px 10px 20px #34262b;
+}
+.footer{
+    background-color: #fdf2b8;
+}
+
+.main{
+    color: #34262b;
+    padding-top:15px;
+    padding-bottom: 30px;
+    border-bottom: 10px linear-gradient(#34262b,#fdf2b8);
+    background-image: url(20191009_Hafner_Feature-127.JPEG);
+    background-size: 100%; 
+    background-position-y: -50px;
+    opacity: .6;
+}
+.main:hover{
+    opacity: 1;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 20vh;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color:#fdf2b8;
+    margin-bottom: 0;
+}
+
+h2{
+    margin-top:0;
+    font-size: 7vmax;
+    font-weight: bold;
+    padding-bottom:5vh;
+}
+h5{
+    font-size:6vmax;
+    text-transform: lowercase;
+    border: 1px solid #a62626;
+    background-color: rgba(232, 130, 0, 0.6);
+    color:#34262b;
+    width:30%;
+    opacity:0.6;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 5px 5px 6px #34262b;
+}
+
+h5:hover{
+    background-color: rgba(232, 130, 0, 1);
+    cursor: pointer;
+    font-size: 7vmax;
+}
+
+#button{
+    opacity:1;
+}

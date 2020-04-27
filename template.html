@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <title> Ana Carvallo - Home </title>
+        <meta charset = "utf-8">
+        <link rel="stylesheet" href="homeStyle.css">
+        <link rel="stylesheet" href="slicknav.css">
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+        
+    </head>
+
+    <body>
+        <div class="wrapper"> 
+            <div class= "header">
+                <nav id="tinyScreen"></nav>
+                
+                <nav id="NavMenu">
+                    <ul>
+                    <li class="box1"><a href="#"> Home </a></li>
+                    <li class="box2"><a href="#">About</a></li>
+                    <li class="box3"><a href="#">Gallery</a>
+                      <ul>
+                            <li class="box3"><a href="#">Current Projects</a></li>
+                            <li class="box3"><a href="#">Past Projects</a>
+                                <ul>
+                                    <li class="box3"><a href="#">Wood</a></li>
+                                    <li class="box3"><a href="#">Glass</a></li>
+                                    <li class="box3"><a href="#">Other</a></li>
+                                </ul>
+                            </li>
+                      </ul>
+                    </li>
+                    <li><a href="#" class="box4">Contact</a></li>
+                </ul>
+            </nav>
+            </div>
+            <div class = "main">
+                <h3>thanks for clicking in!</h3>
+            </div>
+            <div class="footer">
+                 <img src="logo.svg" alt="my signature first name" style=max-width:5%>
+            </div>
+
+      
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="jquery.slicknav.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+      $("#NavMenu").slicknav({
+          prependTo: "#tinyScreen"
+      });
+  });
+</script>
+
+    </body>
+</html>

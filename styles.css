@@ -1,0 +1,144 @@
+@font-face{
+    font-family: "SiteFontCaps";
+    src: url(C:\Users\ana3177\Documents\SPRING_2020\COMP_126\CarvalloAAFin\Sitefontcaps-Regular.ttf) format("truetype")
+}
+
+
+.wrapper{
+    width:100%;
+    height:100vh;
+    margin:0 auto;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 3fr,2fr,1fr;
+}
+
+.header{
+    grid-row: 1;
+    background-color:#fdf2b8 ;
+}
+
+.main{
+    grid-row:2;
+    margin:0,auto;
+    padding-right: 20px;
+    background:linear-gradient(#e88200, white);
+}
+.footer{
+    grid-row:3;
+    background:linear-gradient(white,#34262b);
+}
+.box1{
+    background-color: #fdf2b8;
+    height:100%;
+}
+.box1:hover{
+    background:linear-gradient(#fdf2b8, white);
+ }
+.box2{
+    background-color: #c58747;
+}
+.box2:hover{
+    background:linear-gradient(#c58747, white);
+ }
+ .box3{
+    background-color:#b45724 ;
+}
+.box3:hover{
+    background:linear-gradient(#b45724, white);
+ }
+.box4{
+    background-color:#A62626;
+}
+.box4:hover{
+    background:linear-gradient(#A62626, white);
+ }
+#NavMenu{
+    width:100%;
+   
+}
+
+#NavMenu ul{
+   list-style: none; 
+   position: relative;
+  
+}
+#NavMenu ul li{
+    float: left;
+    font-variant: small-caps;
+    font-size: 3vmax;
+    text-align: center;
+}
+#NavMenu ul ul{
+    display:none;
+    position:absolute;
+    top:100%;
+    width:100%;
+}
+
+#NavMenu ul ul li{
+    float:none;
+    position:relative;
+    width:50%;
+   }
+
+#NavMenu ul ul li ul{
+    position: absolute;
+   }
+
+#NavMenu ul li:hover >ul{
+    display: block;
+}
+
+#NavMenu ul::after{
+    content:"";
+    clear:both;
+    display:block;
+}
+
+#NavMenu ul{
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+#NavMenu ul li{
+    width:25%;
+}
+#NavMenu ul li a{
+    display:block;
+    text-decoration: none;
+    color: black;
+    height:100%;
+}
+#nav_menu ul li:hover ul li a {
+    display: block;
+    text-align: center;
+  }
+
+.slicknav_menu {
+	display:none;
+}
+
+@media screen and (max-width: 1000em) {
+	.js #NavMenu {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+    }
+    .js .slicknav_menu{
+        background:linear-gradient(#cdce65, white);
+    }
+    .js .slicknav_menu .slicknav_menutxt{
+        color:#cdce65;
+        font-size: 3vw;
+    }
+.slicknav_nav ul li a{
+    color: black;
+    font-size:2vw;
+}
+.slicknav_nav ul li a:hover{
+    background:none;
+}
+}

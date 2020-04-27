@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <title> Ana Carvallo - Gallery </title>
+        <meta charset = "utf-8">
+        <link rel="stylesheet" href="galleryStyle.css">
+        <link rel="stylesheet" href="slicknav.css">
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+        
+    </head>
+
+    <body>
+        <div class="wrapper"> 
+            <header>
+                <nav id="tinyScreen"></nav>
+                
+                <nav id="NavMenu">
+                    <ul>
+                    <li class="box1"><a href="HOME.HTML"> Home </a></li>
+                    <li class="box2"><a href="#">About</a></li>
+                    <li class="box3"><a href="GALLERY.HTML">Gallery</a>
+                      <ul>
+                            <li class="box3"><a href="#">Current Projects</a></li>
+                            <li class="box3"><a href="#">Past Projects</a>
+                                <ul>
+                                    <li class="box3"><a href="#">Wood</a></li>
+                                    <li class="box3"><a href="#">Glass</a></li>
+                                    <li class="box3"><a href="#">Other</a></li>
+                                </ul>
+                            </li>
+                      </ul>
+                    </li>
+                    <li><a href="#" class="box4">Contact</a></li>
+                </ul>
+            </nav>
+            </header>
+                 <h3>Gallery</h3>
+                <article class="main">
+                    
+                    <section id="wood">
+                        <h4>WoodWorking</h4>
+                        <section class="gallery">
+                        <figure>
+                         <img src="sitePics/FirstPen.JPG" alt="a handturned pen">
+                            <figcaption>Fashion over Function</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="sitePics/toyChestAngle.PNG" alt="a toy chest for dog toys">
+                            <figcaption> For the dog toys! </figcaption>
+                        </figure>
+                        <figure>
+                         <img id = "rotates" src="sitePics/clock.JPG" alt="a Zelda themed clock">
+                            <figcaption> Made for a friend </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="sitePics/IMG_5966.JPG" alt="a laser cut skateboard">
+                            <figcaption> He was a sk8r boi...</figcaption>
+                        </figure>
+                        <figure>
+                            <video muted loop autoplay>
+                                <source src="sitePics/GuitarShelf.mp4" type="video/mp4" alt="video of a guitar that was made into a Shelf">
+                            </video>
+                            <figcaption> a Guitar Shelf</figcaption>
+                        </figure>
+                        </section>
+                    </section>
+                    <section id="glass">
+                        <h4>Glass</h4>
+                        <section  class="gallery">
+                        <figure>
+                            <img src="sitePics/Butterfly.PNG" alt="a stained glass butterfly">
+                            <figcaption> The first of many </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="sitePics/GlassCross.PNG" alt="stained glass cross">
+                            <figcaption> wedding gift!</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="sitePics/MostPrizedBoi.PNG" alt="a glass marble">
+                            <figcaption> my most prized possesion</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="sitePics/glassBlow.jpg" alt="me glassblowing">
+                            <figcaption> the birth of cosmo </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="sitePics/GlassCosmo.jpg" alt="a glassblown ornament">
+                            <figcaption> cosmo </figcaption>
+                        </figure>
+                        </section>
+                    </section>  
+                    
+                    <section id="other">
+                        <h4> Little bit of everything!</h4>
+                    <section class="gallery">
+                        <figure class="linked"> 
+                            <video muted loop autoplay>
+                                <source src="sitePics/shieldBoi.MOV" alt="a face shield (type of PPE)">
+                            </video>
+                            <figcaption>made for <a href="https://innovate.unc.edu/unc-face-shield-maker-initiative/">UNC's PPE initiative</a></figcaption>
+                        </figure>
+                        <figure>
+                            <video muted loop autoplay>
+                                <source src="sitePics/spinz.mp4" type="video/mp4" alt="a sunfower fidget spinner">
+                            </video>
+                            <figcaption>My first 3D design made from scratch</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="sitePics/LaserCard.png" alt="a laser cut greeting card">
+                            <figcaption>Made with Lazerz</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="sitePics/SpaceMask.jpg" alt="a face mask with aliens on it">
+                            <figcaption>LOL outta this world!</figcaption>
+                        </figure>
+                        <figure>
+                            <video muted loop autoplay>
+                                <source src="sitePics/DDr.mp4" type="video/mp4" alt="a tiny dance dance revolution machine">
+                            </video>
+                            <figcaption>it's like dance dance revolution,, but for your fingers</figcaption>
+                        </figure>
+                    </section>    
+                    </section>
+
+                </article>
+           
+            <footer>
+                 <a href="index.html"><img src="logo.svg" alt="my signature first name" style=max-width:5%></a>
+            </footer>
+
+      
+</div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="jquery.slicknav.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+      $("#NavMenu").slicknav({
+          prependTo: "#tinyScreen"
+      });
+  });
+</script>
+
+    </body>
+</html>
